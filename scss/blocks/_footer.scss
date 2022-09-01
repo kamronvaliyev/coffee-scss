@@ -1,0 +1,23 @@
+.footer{
+    background: #2C343E;
+    height: 120px;
+    display: flex;
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section-2_footer__list{
+    display: flex;
+    gap: 20px;
+}
+.section-2_footer__list li{
+    list-style: none;
+
+}
+.section-2_footer__list li a{
+    text-decoration: none;
+    color: #83888F;;
+    font-weight: 700;
+    font-size: 12px;
+}

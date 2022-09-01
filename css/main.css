@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: barlow;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  background: white;
+  margin-bottom: 33px;
+}
+
+.header__logo {
+  margin-left: 0;
+  margin-right: 680px;
+}
+
+.header__list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__list li {
+  list-style: none;
+}
+
+.header__list li a {
+  text-decoration: none;
+  color: #83888F;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header__list li a:hover {
+  color: black;
+  transition: 0.5s ease;
+}
+
+.collection {
+  position: relative;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+  text-align: center;
+  align-items: center;
+}
+
+.collection__title {
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  text-align: center;
+  color: #83888F;
+}
+
+.type_coffees {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.espresso h4 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
+.espresso p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
+  width: 255px;
+  height: 78px;
+}
+
+.about-us {
+  background: #2C343E;
+  border-radius: 10px;
+  width: 1200px;
+  height: 577px;
+  margin-top: 200px;
+}
+
+.about-us h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+  padding-top: 120px;
+}
+
+.about-us p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  width: 540px;
+  height: 80px;
+  margin-top: 32px;
+}
+
+.boxes-coffee {
+  display: flex;
+}
+
+.box_coffee {
+  background: #0E8784;
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+  left: 165px;
+  top: 1920px;
+  text-align: center;
+}
+
+.box_coffee img {
+  margin-top: 72px;
+}
+
+.box_coffee h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+  margin-top: 36px;
+}
+
+.box_coffee p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  width: 255px;
+  height: 78px;
+}
+
+.our-system h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+.three_boxes {
+  display: flex;
+  font-family: Fraunces;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.instruction_1 {
+  margin-left: 0;
+}
+
+.instruction_1 h2 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.instruction_1 h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 38px;
+  margin-bottom: 42px;
+}
+
+.instruction_1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  width: 285px;
+  height: 130px;
+}
+
+.instruction h2 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.instruction h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 38px;
+  margin-bottom: 42px;
+}
+
+.instruction p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  width: 285px;
+  height: 130px;
+}
+
+.our-system__btn {
+  background: #0E8784;
+  border-radius: 6px;
+  width: 217px;
+  height: 56px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  margin-top: 80px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background: #2C343E;
+  height: 120px;
+  display: flex;
+  margin-top: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2_footer__list {
+  display: flex;
+  gap: 20px;
+}
+
+.section-2_footer__list li {
+  list-style: none;
+}
+
+.section-2_footer__list li a {
+  text-decoration: none;
+  color: #83888F;
+  font-weight: 700;
+  font-size: 12px;
+}/*# sourceMappingURL=main.css.map */
